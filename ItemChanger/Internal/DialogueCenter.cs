@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using ItemChanger.Extensions;
-using TMPro;
+using TMProOld;
 
 namespace ItemChanger.Internal
 {

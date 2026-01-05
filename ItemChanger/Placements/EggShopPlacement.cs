@@ -96,7 +96,7 @@ namespace ItemChanger.Placements
 
             // Set the "Black Wave" to white
             Transform bw = jijiFsm.transform.Find("Black Wave");
-            bw.GetComponent<WaveEffectControl>().blackWave = false;
+            //bw.GetComponent<WaveEffectControl>().blackWave = false;
             bw.GetComponent<SpriteRenderer>().color = Color.white;
 
             FsmState convoChoice = jijiFsm.GetState("Convo Choice");

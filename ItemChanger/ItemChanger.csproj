@@ -102,6 +102,15 @@
     <Reference Include="UnityEngine.UIModule">
       <HintPath>$(HollowKnightRefs)\UnityEngine.UIModule.dll</HintPath>
     </Reference>
+	<Reference Include="TeamCherry.TK2D">
+      <HintPath>$(HollowKnightRefs)\TeamCherry.TK2D.dll</HintPath>
+    </Reference>
+	<Reference Include="netstandard">
+      <HintPath>$(HollowKnightRefs)\netstandard.dll</HintPath>
+    </Reference>
+	<Reference Include="mscorlib">
+      <HintPath>$(HollowKnightRefs)\mscorlib.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Target Name="CopyMod" AfterTargets="PostBuildEvent">
     <Copy SourceFiles="$(TargetPath);$(TargetDir)$(TargetName).pdb;$(TargetDir)$(TargetName).xml;$(SolutionDir)README.md" DestinationFolder="$(HollowKnightRefs)\Mods\ItemChanger" SkipUnchangedFiles="true" />

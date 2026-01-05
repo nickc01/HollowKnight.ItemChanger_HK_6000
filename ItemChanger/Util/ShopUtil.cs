@@ -1,6 +1,6 @@
 ﻿using ItemChanger.Components;
 using System.Reflection;
-using TMPro;
+using TMProOld;
 
 namespace ItemChanger.Util
 {

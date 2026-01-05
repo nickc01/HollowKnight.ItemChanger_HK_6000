@@ -1,6 +1,6 @@
 ﻿using HutongGames.PlayMaker.Actions;
 using ItemChanger.Extensions;
-using TMPro;
+using TMProOld;
 
 namespace ItemChanger.Components
 {
